@@ -15,4 +15,20 @@ RSpec.describe 'Users', type: :request do
       expect(response.body).to include('This is the main section for the users')
     end
   end
+
+describe 'GET /show' do
+  before(:example) { get user_path(745) }
+
+  it 'checks if action returns correct response status' do
+    expect(response).to have_http_status(:ok)
+  end
+
+  it 'checks if action rendered a correct template' do
+    expect(response).to render_template('show')
+  end
+
+  it 'checks if correct placeholder is shown' do
+    expect(response.body).to include('Here is the profile of a particular user')
+  end
 end
+
