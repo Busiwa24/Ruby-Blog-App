@@ -31,4 +31,3 @@ describe 'GET /show' do
     expect(response.body).to include('Here is the profile of a particular user')
   end
 end
-

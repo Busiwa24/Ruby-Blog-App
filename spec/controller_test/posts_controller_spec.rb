@@ -18,7 +18,6 @@ RSpec.describe 'Posts', type: :request do
   end
 end
 
-
 describe 'GET /show' do
   before(:example) { get user_path(745) }
 
@@ -34,4 +33,3 @@ describe 'GET /show' do
     expect(response.body).to include('Here is the profile of a particular user')
   end
 end
-
