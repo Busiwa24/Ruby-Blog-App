@@ -1,4 +1,3 @@
-# Ruby-Blog-App
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 ![](https://img.shields.io/badge/Ruby-red)
 
@@ -21,16 +20,14 @@ If you're on Windows, consider installing a version lower than 3.0 as it is know
   - Open up the page `localhost:3000` on your browser to display the app.
 
 ## Author
-👤 Busiwa Liuma
 
--GitHub: (https://github.com/Busiwa24)
- -Twitter: (https://twitter.com/busiwaliuma) 
- -LinkedIn: (https://www.linkedin.com/in/busiwa-liuma-28385b80/>)
+👤 Busiwa24
+
+-GitHub: (https://github.com/Busiwa24) 
+-Twitter: (https://twitter.com/busiwaliuma)
+-LinkedIn: (https://www.linkedin.com/in/busiwa-liuma-)
 
 
 # 🤝 Contributing
 
-Feel free to check the [issues page]https://github.com/Busiwa24/Blog-App/issues
-
-
-
+Feel free to check the [issues page](https://github.com/Busiwa24/Blog-App/issues/).
