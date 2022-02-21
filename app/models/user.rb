@@ -9,3 +9,6 @@ class User < ApplicationRecord
     posts.order(created_at: :asc).limit(3)
   end
 end
+
+
+
