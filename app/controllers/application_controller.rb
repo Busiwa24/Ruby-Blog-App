@@ -5,3 +5,5 @@ class ApplicationRecord < ActiveRecord::Base
     User.first
   end
 end
+
+
