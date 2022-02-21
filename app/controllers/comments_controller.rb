@@ -22,5 +22,3 @@ class CommentsController < ApplicationController
     params.permit(:text)
   end
 end
-
-
