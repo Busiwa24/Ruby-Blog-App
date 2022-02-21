@@ -10,3 +10,9 @@ class Comment < ApplicationRecord
     Post.find_by(id: post_id).update(comments_counter: num)
   end
 end
+
+
+
+
+
+

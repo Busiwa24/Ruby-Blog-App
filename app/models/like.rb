@@ -8,5 +8,3 @@ class Like < ApplicationRecord
     Post.find_by(id: post_id).update(likes_counter: num)
   end
 end
-
-
