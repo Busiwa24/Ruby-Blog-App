@@ -1,110 +1,72 @@
-# Blog-app
+# Blog App
 
-The Blog app is a classic example of a blog website. It's a functional website that shows the list of posts and empower readers to interact with them by adding comments and liking posts.
+> A fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts. Currently being worked on.
 
-## Built With
+## Screenshots
 
-- Ruby
-- Ruby on Rails
+Home Page
+
+![](https://i.imgur.com/XWa8tZz.png)
+
+User Profile Page
+
+![](https://i.imgur.com/hazmOpU.png)
+
+User Posts
+
+![](https://i.imgur.com/FnsfgYp.png)
+
+Single Post
+
+![](https://i.imgur.com/vOXeS0N.png)
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+- Make sure you have [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [Postgresql](https://www.postgresql.org/download/) installed on your system.
 
-git clone https://github.com/Donard97/blog-app.git
+- Install rails by running `gem install rails`
 
-cd Trending-Blog-app
+- Clone this repository by running `git clone https://github.com/DammyShittu/Blog-App.git` in your command line.
 
-### Prerequisites
+- Navigate to the repository by running `cd Blog-App`.
 
-Ruby
-Rails
-PostgresSQL
+- Run `yarn install` to install all dependencies
 
-### Setup
+- Run `rails db:create`, and `rails db:migrate`  to create database.
 
-Install gems with:
+- Run `rails db:seed` to populate the database with the data in the [seed](./db/seeds.rb) file.
 
-```
-bundle install
-```
+- Run `rails s` and go to http:localhost:3000 to view the app.
 
-Setup database with:
+## Built With
 
-```
-rails db:create
-rails db:migrate
-```
+- Ruby On Rails
+- Rspec Rails
 
-### Usage
+## Version Control System
 
-Start server with:
-
-```
-rails server
-```
-
-Open http://localhost:3000/ in your browser.
-
-### Run tests
-
-Install npm with:
-
-```
-npm i
-```
-
-Install rspec with:
-
-```
-bundle install
-```
-
-and
-
-```
-rails generate rspec:install
-```
-
-run the test with:
-
-```
-rspec spec
-
-# Installation 
-Make sure you have the latest version of Ruby installed.
-
-If you're on Windows, consider installing a version lower than 3.0 as it is known to cause installation issues with the `pg` gem.
-  - Clone the repo.
-  - Run `bundle install` in the command line to install the dependencies.
-  - Make sure to create a new user that will be used to access the DB with the credentials in `database.yml`.
-  - Setup the DB by running `rake db:setup`.
-  - Run `rails s` to start the server.
-  - Open up the page `localhost:3000` on your browser to display the app.
+- Git
 
 ## Author
 
-👤 Busiwa Liuma
+👤 **Adedamola Shittu**
 
--GitHub: (https://github.com/Busiwa24) 
--Twitter: (https://twitter.com/busiwaliuma) 
--LinkedIn: (https://www.linkedin.com/in/busiwa-liuma-)
+- GitHub: [@dammyShittu](https://github.com/DammyShittu/)
 
-# 🤝 Contributing
+- Twitter: [@aded_shittu](https://twitter.com/aded_shittu/)
 
-Feel free to check the [issues page](https://github.com/Busiwa24/Ruby-Blog-App/issues).
+- LinkedIn: [Adedamola Shittu](https://www.linkedin.com/in/adedamolashittu/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/DammyShittu/Blog-App/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## License
 
-- A special thanks to Microverse for inspiring this project. I am indebted to you all at Microverse
-- A special thanks goes to all our peers at Microverse for being there for me.
-
-## 📝 License
-
-This project is [MIT](./LICENCE) licensed.
-
-
+This project is [MIT](LICENSE) licensed.
