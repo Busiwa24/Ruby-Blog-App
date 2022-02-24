@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
-root 'users#index'
-  resources :users, only: [:index, :show] do
-    resources :posts, only: [:index, :new, :create, :show]
-  end
+  
+  
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root'users#index'
 
-  resources :posts do
-    resources :comments, only: [:create]
-    resources :likes, only: [:create]
-  end
+  resources :users, only: [:index, :show, :new, :create] do
+    resources :posts, only: [:index, :new, :show, :create] do
+      resources :comments, only: [:new, :create]
+    end
+ end
 end
+ 
