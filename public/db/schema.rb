@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema
+ActiveRecord::Schema.define(version: 20_211_208_101_853)
   # These are extensions that must be enabled in order to support this database
   enable_extension 'plpgsql'
 
@@ -58,4 +58,4 @@ ActiveRecord::Schema
   add_foreign_key 'likes', 'posts'
   add_foreign_key 'likes', 'users', column: 'author_id'
   add_foreign_key 'posts', 'users', column: 'author_id'
-end
+  end
