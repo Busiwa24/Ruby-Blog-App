@@ -36,7 +36,7 @@ Single Post
 
 - Run `rails db:seed` to populate the database with the data in the [seed](./db/seeds.rb) file.
 
-- Run `rails s` and go to http:localhost:3000 to view the app.
+- Run `rails s` and go to r to view the app.
 
 ## Built With
 
