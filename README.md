@@ -11,7 +11,7 @@ The Blog app is a classic example of a blog website. It's a functional website t
 
 To get a local copy up and running follow these simple example steps.
 
-git clone https://github.com/Donard97/blog-app.git
+git clone https://github.com/Busiwa24/Ruby-Blog-App.git
 
 cd Trending-Blog-app
 

@@ -11,4 +11,10 @@ class Post < ApplicationRecord
   def recent_comments
     comments.limit(5).order(created_at: :desc)
   end
+
+  private
+
+  def post_params
+    params.require(:post).permit(:title, :text)
+  end
 end
