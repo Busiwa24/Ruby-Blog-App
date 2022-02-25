@@ -10,11 +10,11 @@ class PostsController < ApplicationController
   end
 
   def new
-    @current = current_user
+    @post = Post.new
   end
 
   def create
-    new_post = current_user.posts.build(post_params)
+    new_post = current_user.posts.new(post_params)
 
     respond_to do |format|
       format.html do
